@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Abeyaratne"
+  given-names: "Rohan"
+- family-names: "Dharmaravam"
+  given-names: "Sanjay"
+- family-names: "Saccomandi"
+  given-names: "Giuseppe"
+- family-names: "Tomassetti"
+  given-names: "Giuseppe"
+  orcid: "https://orcid.org/0000-0002-3603-3453"
+title: "Using stochastic thermodynamics with internal variables to capture orientational spreading in cell populations undergoing cyclic stretch"
+version: 1.0.0
+date-released: 2026-02-14
+url: "https://github.com/giuseppetomassetti/Stochastic-cell-reorientation"
+repository-code: "https://github.com/giuseppetomassetti/Stochastic-cell-reorientation"
+keywords:
+  - "stochastic thermodynamics"
+  - "cell reorientation"
+  - "internal variables"
+  - "Fokker-Planck equation"
+  - "cyclic stretch"
+license: MIT

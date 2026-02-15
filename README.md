@@ -2,6 +2,14 @@
 
 **Authors:** Rohan Abeyaratne, Sanjay Dharmaravam, Giuseppe Saccomandi, Giuseppe Tomassetti
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+If you use this code in your research, please cite it using the metadata in the [CITATION.cff](CITATION.cff) file. GitHub users can also use the "Cite this repository" button in the sidebar.
+
 ## Scripts Overview
 
 This repository contains Julia scripts and Jupyter notebooks that generate all figures for the paper. Each script is self-contained and can be run independently.
@@ -66,6 +74,13 @@ This repository contains Julia scripts and Jupyter notebooks that generate all f
 - Evolution of order parameter S(t) for ε_max = 10% strain
 - Compares theoretical predictions S̃(t) with experimental data from Mao et al.
 - Output: `evolution_S_our_model01.png`
+
+#### **FigureE-9.py**
+- Generates Figure E-9 for the Electronic Supplementary Material (thermodynamic quantities in the transient regime).
+- Numerical simulation of the Fokker-Planck equation and thermodynamics analysis.
+- Compares exact thermodynamic quantities (entropy, free energy, entropy production) with those derived from the reduced-order (von Mises) model.
+- Output: `thermodynamics_comparison_full.jpg`
+- Accompanied by **Thermodynamics_Explanation.md** which provides the mathematical background.
 
 ## Requirements
 
